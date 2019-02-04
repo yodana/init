@@ -1,0 +1,2 @@
+echo "Gateway par default:" 
+route -n get default | grep gateway | rev | cut -d" " -f1 | rev
