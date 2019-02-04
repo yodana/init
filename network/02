@@ -1,4 +1,4 @@
 broad=$(ifconfig en0 | grep broadcast | rev | cut -d" " -f1 | rev)
-echo $broad
+echo "Brodcast  = $broad\nAdresse sous reseau ="
 ping -c1 $broad >&-
-arp -a | cut -d"(" -f2 | cut -d")" -f1
+arp -a | cut -d"(" -f2 | cut -d")" -f1 | grep 10.12
