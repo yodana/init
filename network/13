@@ -1,1 +1,1 @@
-dig +short -x $(sh 12))
+#dig +short -x $(sh 12)
