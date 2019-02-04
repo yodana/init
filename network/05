@@ -1,0 +1,2 @@
+echo "Adresse IP du DNS du domaine slash16.org:"
+ping -c1 slash16.org | grep "PING" | cut -d"(" -f2 | cut -d")" -f1
