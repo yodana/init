@@ -1,1 +1,2 @@
+echo "Interfaces reseaux disponible:"
 ifconfig | grep mtu | cut -d: -f1
