@@ -1,1 +1,2 @@
+echo "Adresse MAC de la carte Wifi:"
 ifconfig awdl0 | grep ether | cut -d" " -f2
