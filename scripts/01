@@ -1,0 +1,1 @@
+awk -F: {print Login=\tUID=\tPath= } /etc/passwd
