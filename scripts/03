@@ -1,0 +1,2 @@
+USER=ptruffau
+su $USER; passwd $USER
