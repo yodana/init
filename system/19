@@ -24,4 +24,5 @@ ssh
 sudo
 udev
 x11-common
-\n Ces services s'appellent des 'boot-deamons'
+
+Ces services s'appellent des 'boot-deamons'
