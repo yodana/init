@@ -1,0 +1,1 @@
+awk -F: {print "Login="$1"\tUID="$3"\tPath="$6} /etc/passwd
