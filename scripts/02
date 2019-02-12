@@ -1,0 +1,6 @@
+var=$(pgrep -u toto | wc -l)
+if [ $var > 0 ]
+	then
+		killall -KILL -u toto
+	fi
+sed "/$2/d" /etc/passwd
