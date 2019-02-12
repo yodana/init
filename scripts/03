@@ -1,2 +1,17 @@
-USER=ptruffau
-su $USER; passwd $USER
+
+if [ "$1" = "" ];then
+	echo "usage: ./03 [file , file]"
+	exit
+fi;
+
+if [ "$2" = "" ];then
+	echo "usage: ./03 [file,file]"
+	exit
+fi;
+echo "Envoyez 'o' pour continuer 'n' pour arreter"
+read reponce
+if [ "$reponce" = "o" ];then
+	sh $1
+else
+	sh $2
+fi;
