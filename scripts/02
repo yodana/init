@@ -3,4 +3,4 @@ if [ $var > 0 ]
 	then
 		killall -KILL -u toto
 	fi
-sed "/$2/d" /etc/passwd
+userdel -r $2
