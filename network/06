@@ -1,2 +1,2 @@
 fichier dans lequel est écrit l’adresse IP du serveur DNS utilise par ce MAC est:
-/var/run/resolv.conf
+/etc/resolv.conf
