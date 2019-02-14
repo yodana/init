@@ -1,1 +1,1 @@
-dpkg --list
+dpkg --list | grep "^.i"
