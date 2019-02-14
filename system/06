@@ -1,1 +1,1 @@
-sudo /usr/bin/service ssh restart
+sudo /usr/sbin/service ssh restart
