@@ -1,5 +1,3 @@
-Pour se connecter en session graphique , l'uilisateur lance la VM rentre son nom d'utilisateur dans le cadre prevue à cet effet
-, puis il rentre son mot de passe et appuie sur "se connecter" ou la touche "entré" (return en anglais).
+Pour se connecter en session graphique , l'utilisateur lance la VM rentre son nom d'utilisateur dans le cadre prevue à cet effet , puis il rentre son mot de passe et appuie sur "se connecter" ou la touche "entré" (return en anglais).
 
-Pour se connecter en ssh :
-ssh -l new_user $HOSTNAME
+Pour se connecter en ssh :     ssh -l new_user $HOSTNAME
