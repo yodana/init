@@ -5,4 +5,4 @@ if [ $var > 0 ]
 	then
 		sudo killall -KILL -u $1
 	fi
-/usr/sbin/userdel -r $1
+sudo /usr/sbin/userdel -r $1
