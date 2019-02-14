@@ -1,8 +1,11 @@
 
 var=$(pgrep -u $1 | wc -l)
-echo $1
+if [ "$1" = "" ];then
+	echo "usage: ./02 [user]"
+	exit
+fi;
 if [ $var > 0 ]
 	then
 		sudo killall -KILL -u $1
 	fi
-sudo /usr/sbin/userdel -r $1
+sudo /usr/sbin/userdel -r $1 
