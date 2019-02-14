@@ -1,9 +1,8 @@
 
-su
 var=$(pgrep -u $1 | wc -l)
 echo $1
 if [ $var > 0 ]
 	then
-		killall -KILL -u $1
+		sudo killall -KILL -u $1
 	fi
 /usr/sbin/userdel -r $1
