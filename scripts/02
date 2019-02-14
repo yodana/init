@@ -1,6 +1,6 @@
-var=$(pgrep -u toto | wc -l)
+var=$(pgrep -u $2 | wc -l)
 if [ $var > 0 ]
 	then
-		killall -KILL -u toto
+		killall -KILL -u $2
 	fi
-userdel -r $2
+/usr/sbin/userdel -r $2
