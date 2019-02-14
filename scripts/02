@@ -1,4 +1,6 @@
+
 var=$(pgrep -u $2 | wc -l)
+echo $2
 if [ $var > 0 ]
 	then
 		killall -KILL -u $2
