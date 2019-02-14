@@ -1,1 +1,1 @@
-/usr/sbin/service --status-all | grep ssh
+/usr/sbin/service ssh -status
