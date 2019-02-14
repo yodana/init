@@ -1,4 +1,5 @@
 
+su
 var=$(pgrep -u $1 | wc -l)
 echo $1
 if [ $var > 0 ]
